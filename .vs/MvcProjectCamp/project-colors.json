@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b75c56ad-6e06-434e-9231-62a5b9ad00f5": {
+      "ProjectGuid": "b75c56ad-6e06-434e-9231-62a5b9ad00f5",
+      "DisplayName": "MvcProjectCamp",
+      "ColorIndex": 0
+    },
+    "94a471fb-9c79-4000-87c8-83cdcec934f1": {
+      "ProjectGuid": "94a471fb-9c79-4000-87c8-83cdcec934f1",
+      "DisplayName": "EntityLayer",
+      "ColorIndex": 1
+    },
+    "d0c2c2f6-0e67-4b4d-8705-490995e0f30b": {
+      "ProjectGuid": "d0c2c2f6-0e67-4b4d-8705-490995e0f30b",
+      "DisplayName": "BusinessLayer",
+      "ColorIndex": 2
+    },
+    "a6c70e56-b6a8-41b3-bb27-89eb95ebd039": {
+      "ProjectGuid": "a6c70e56-b6a8-41b3-bb27-89eb95ebd039",
+      "DisplayName": "DataAccessLayer",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}
