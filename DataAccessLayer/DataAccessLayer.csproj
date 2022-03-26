@@ -10,11 +10,12 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DataAccessLayer</RootNamespace>
     <AssemblyName>DataAccessLayer</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -56,6 +57,7 @@
     <Compile Include="Abstract\IContactDal.cs" />
     <Compile Include="Abstract\IContentDal.cs" />
     <Compile Include="Abstract\IHeadingDal.cs" />
+    <Compile Include="Abstract\IImageFileDal.cs" />
     <Compile Include="Abstract\IMessageDal.cs" />
     <Compile Include="Abstract\IRepository.cs" />
     <Compile Include="Abstract\IWriterDal.cs" />
@@ -67,6 +69,7 @@
     <Compile Include="EntityFramework\EFContactDal.cs" />
     <Compile Include="EntityFramework\EFContentDal.cs" />
     <Compile Include="EntityFramework\EFHeadingDal.cs" />
+    <Compile Include="EntityFramework\EFImageFileDal.cs" />
     <Compile Include="EntityFramework\EFMessageDal.cs" />
     <Compile Include="EntityFramework\EFWriterDal.cs" />
     <Compile Include="Migrations\202202091335172_mig1.cs" />
@@ -105,6 +108,14 @@
     <Compile Include="Migrations\202203252007329_mig_contact_add_date.designer.cs">
       <DependentUpon>202203252007329_mig_contact_add_date.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202203261857385_mig_addimage_file.cs" />
+    <Compile Include="Migrations\202203261857385_mig_addimage_file.designer.cs">
+      <DependentUpon>202203261857385_mig_addimage_file.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202203261943016_mig_admin_table.cs" />
+    <Compile Include="Migrations\202203261943016_mig_admin_table.designer.cs">
+      <DependentUpon>202203261943016_mig_admin_table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -139,6 +150,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202203252007329_mig_contact_add_date.resx">
       <DependentUpon>202203252007329_mig_contact_add_date.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203261857385_mig_addimage_file.resx">
+      <DependentUpon>202203261857385_mig_addimage_file.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203261943016_mig_admin_table.resx">
+      <DependentUpon>202203261943016_mig_admin_table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
