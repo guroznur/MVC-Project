@@ -15,6 +15,8 @@ namespace MvcProjectCamp.Controllers
     public class AdminCategoryController : Controller
     {
         CategoryManager categoryManager = new CategoryManager(new EFCategoryDal());
+
+        [Authorize(Roles ="B")]//sadece B rolüne sahip kişiler bu sayfayı görecek
         public ActionResult Index()
         {
             var categoryValues = categoryManager.GetList();
